@@ -94,6 +94,7 @@ public class App {
                     }
                 }
                 else {
+                    logger.warning("User put invalid guess: " + guess);
                     System.out.println("Invalid input detected.\n");
                 }
             }
